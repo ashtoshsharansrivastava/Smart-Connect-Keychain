@@ -1,0 +1,26 @@
+name: safety_keychain
+description: A commercial safety keychain companion app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^5.0.0
+  flutter_local_notifications: ^17.0.0
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  shared_preferences: ^2.2.2
+  flutter_blue_plus: ^1.31.18   # The BLE Engine
+  permission_handler: ^11.3.1   # To ask for Android permissions
+  geolocator: ^14.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
